@@ -74,7 +74,7 @@ const generatePrompt = (type, input, language = "hi") => {
 
         Question: "${input}"
 
-        Please answer in simple bullet points considering the profile.
+        Please answer in maximum 5 to 6 points and the answer should be concise to the point in a bullet points format.
       `;
     }
   }
@@ -122,7 +122,7 @@ const generatePrompt = (type, input, language = "hi") => {
 
         उपयोगकर्ता का प्रश्न: "${input}"
 
-        कृपया इस प्रोफ़ाइल को ध्यान में रखकर बिंदुओं में उत्तर दें।
+        कृपया उत्तर अधिकतम 5 से 6 बिंदुओं में दें और प्रत्येक बिंदु संक्षिप्त और सीधा हो।
       `;
     }
   }
