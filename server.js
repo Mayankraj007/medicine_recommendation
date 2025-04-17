@@ -48,7 +48,13 @@ const generatePrompt = (type, input, language = "hi") => {
         3. When should it be avoided?
         4. Better alternatives?
         5. Any additional advice.
-
+        please strictly answer each question in  answers as points 
+        like point 1 question answer as point one then point 2 question answer as next point and so on. 
+        format for answer will be like 
+        1.  .......
+        2.  .......
+        and so on 
+        note that the answer should be concise to the point in a bullet points format.
         Please answer in maximum 5 to 6 points and the answer should be concise to the point in a bullet points format.
       `;
     } else if (type === "food") {
@@ -66,7 +72,13 @@ const generatePrompt = (type, input, language = "hi") => {
         3. Recommended quantity or caution?
         4. Better alternatives?
         5. Additional health advice.
-
+please strictly answer each question in  answers as points 
+        like point 1 question answer as point one then point 2 question answer as next point and so on. 
+        format for answer will be like 
+        1.  .......
+        2.  .......
+        and so on 
+        note that the answer should be concise to the point in a bullet points format.
         Please answer in maximum 5 to 6 points and the answer should be concise to the point in a bullet points format.
       `;
     } else {
@@ -77,7 +89,13 @@ const generatePrompt = (type, input, language = "hi") => {
         - Conditions: ${conditionList}
 
         Question: "${input}"
-
+please strictly answer each question in  answers as points 
+        like point 1 question answer as point one then point 2 question answer as next point and so on. 
+        format for answer will be like 
+        1.  .......
+        2.  .......
+        and so on 
+        note that the answer should be concise to the point in a bullet points format.
         Please answer in maximum 5 to 6 points and the answer should be concise to the point in a bullet points format.
       `;
     }
@@ -100,7 +118,24 @@ const generatePrompt = (type, input, language = "hi") => {
         3. कब न लें?
         4. विकल्प?
         5. अन्य सलाह
-        
+        कृपया प्रत्येक प्रश्न का उत्तर बिंदुवार रूप में दें।
+उत्तर देने का प्रारूप निम्नलिखित होना चाहिए:
+
+.......
+
+.......
+
+....... इत्यादि।
+
+अन्य निर्देश:
+
+प्रत्येक उत्तर उसी क्रम में दें जिस क्रम में प्रश्न पूछे गए हैं।
+
+उत्तर संक्षिप्त और स्पष्ट होने चाहिए।
+
+प्रत्येक उत्तर एक बिंदु (bullet/point) के रूप में होना चाहिए।
+
+इस प्रारूप का पालन अवश्य करें।
         कृपया उत्तर अधिकतम 5 से 6 बिंदुओं में दें और प्रत्येक बिंदु संक्षिप्त और सीधा हो।।
       `;
     } else if (type === "food") {
@@ -118,7 +153,24 @@ const generatePrompt = (type, input, language = "hi") => {
         3. मात्रा या सावधानी?
         4. बेहतर विकल्प?
         5. सलाह।
+कृपया प्रत्येक प्रश्न का उत्तर बिंदुवार रूप में दें।
+उत्तर देने का प्रारूप निम्नलिखित होना चाहिए:
 
+.......
+
+.......
+
+....... इत्यादि।
+
+अन्य निर्देश:
+
+प्रत्येक उत्तर उसी क्रम में दें जिस क्रम में प्रश्न पूछे गए हैं।
+
+उत्तर संक्षिप्त और स्पष्ट होने चाहिए।
+
+प्रत्येक उत्तर एक बिंदु (bullet/point) के रूप में होना चाहिए।
+
+इस प्रारूप का पालन अवश्य करें।
         कृपया उत्तर अधिकतम 5 से 6 बिंदुओं में दें और प्रत्येक बिंदु संक्षिप्त और सीधा हो।
       `;
     } else {
@@ -129,7 +181,24 @@ const generatePrompt = (type, input, language = "hi") => {
         - स्थितियाँ: ${conditionList}
 
         उपयोगकर्ता का प्रश्न: "${input}"
+कृपया प्रत्येक प्रश्न का उत्तर बिंदुवार रूप में दें।
+उत्तर देने का प्रारूप निम्नलिखित होना चाहिए:
 
+.......
+
+.......
+
+....... इत्यादि।
+
+अन्य निर्देश:
+
+प्रत्येक उत्तर उसी क्रम में दें जिस क्रम में प्रश्न पूछे गए हैं।
+
+उत्तर संक्षिप्त और स्पष्ट होने चाहिए।
+
+प्रत्येक उत्तर एक बिंदु (bullet/point) के रूप में होना चाहिए।
+
+इस प्रारूप का पालन अवश्य करें।
         कृपया उत्तर अधिकतम 5 से 6 बिंदुओं में दें और प्रत्येक बिंदु संक्षिप्त और सीधा हो।
       `;
     }
