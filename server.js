@@ -54,9 +54,9 @@ const generatePrompt = (type, input, language = "hi") => {
         1.  .......
         2.  .......
         and so on 
-        pls strictly follow this output format
         note that the answer should be concise to the point in a bullet points format.
-        Please answer in maximum 5 to 6 points and the answer should be concise to the point in a bullet points format.
+        Please answer in maximum 5 to 6 points.
+        pls strictly follow this output format
       `;
     } else if (type === "food") {
       return `
@@ -78,10 +78,9 @@ please strictly answer each question in  answers as points
         format for answer will be like 
         1.  .......
         2.  .......
-        and so on 
-        pls strictly follow this output format
+        and so on
         note that the answer should be concise to the point in a bullet points format.
-        Please answer in maximum 5 to 6 points and the answer should be concise to the point in a bullet points format.
+        Please answer in maximum 5 to 6 points. pls strictly follow this output format
       `;
     } else {
       return `
@@ -98,7 +97,8 @@ please strictly answer each question in  answers as points
         2.  .......
         and so on 
         note that the answer should be concise to the point in a bullet points format.
-        Please answer in maximum 5 to 6 points and the answer should be concise to the point in a bullet points format.
+        Please answer in maximum 5 to 6 points.
+         pls strictly follow this output format.
       `;
     }
   }
