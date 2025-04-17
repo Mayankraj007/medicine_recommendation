@@ -54,6 +54,7 @@ const generatePrompt = (type, input, language = "hi") => {
         1.  .......
         2.  .......
         and so on 
+        pls strictly follow this output format
         note that the answer should be concise to the point in a bullet points format.
         Please answer in maximum 5 to 6 points and the answer should be concise to the point in a bullet points format.
       `;
@@ -78,6 +79,7 @@ please strictly answer each question in  answers as points
         1.  .......
         2.  .......
         and so on 
+        pls strictly follow this output format
         note that the answer should be concise to the point in a bullet points format.
         Please answer in maximum 5 to 6 points and the answer should be concise to the point in a bullet points format.
       `;
@@ -119,6 +121,7 @@ please strictly answer each question in  answers as points
         4. विकल्प?
         5. अन्य सलाह
         कृपया प्रत्येक प्रश्न का उत्तर बिंदुवार रूप में दें।
+        pls strictly follow this output format
 उत्तर देने का प्रारूप निम्नलिखित होना चाहिए:
 
 .......
@@ -154,6 +157,7 @@ please strictly answer each question in  answers as points
         4. बेहतर विकल्प?
         5. सलाह।
 कृपया प्रत्येक प्रश्न का उत्तर बिंदुवार रूप में दें।
+pls strictly follow this output format
 उत्तर देने का प्रारूप निम्नलिखित होना चाहिए:
 
 .......
@@ -182,6 +186,7 @@ please strictly answer each question in  answers as points
 
         उपयोगकर्ता का प्रश्न: "${input}"
 कृपया प्रत्येक प्रश्न का उत्तर बिंदुवार रूप में दें।
+pls strictly follow this output format
 उत्तर देने का प्रारूप निम्नलिखित होना चाहिए:
 
 .......
