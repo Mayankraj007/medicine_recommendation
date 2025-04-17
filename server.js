@@ -23,8 +23,8 @@ const cleanResponse = (text) => {
 const generatePrompt = (type, input, language = "hi") => {
   const profile = {
     age: 42,
-    allergies: ["Ibuprofen", "Shellfish"],
-    conditions: ["Asthma", "High Cholesterol"],
+    allergies: ["Ibuprofen", "Shellfish","dust allergy"],
+    conditions: ["Asthma", "High Cholesterol","Diabetes"],
   };
 
   const { age, allergies, conditions } = profile;
@@ -46,7 +46,7 @@ const generatePrompt = (type, input, language = "hi") => {
         1. Is it safe?
         2. Possible side effects?
         3. When should it be avoided?
-        4. Better alternatives?
+        4. suggest Better alternative medicine ?
         5. Any additional advice.
         please strictly answer each question in  answers as points 
         like point 1 question answer as point one then point 2 question answer as next point and so on. 
