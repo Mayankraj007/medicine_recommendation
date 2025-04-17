@@ -48,6 +48,8 @@ const generatePrompt = (type, input, language = "hi") => {
         3. When should it be avoided?
         4. Better alternatives?
         5. Any additional advice.
+
+        Please answer in maximum 5 to 6 points and the answer should be concise to the point in a bullet points format.
       `;
     } else if (type === "food") {
       return `
@@ -64,6 +66,8 @@ const generatePrompt = (type, input, language = "hi") => {
         3. Recommended quantity or caution?
         4. Better alternatives?
         5. Additional health advice.
+
+        Please answer in maximum 5 to 6 points and the answer should be concise to the point in a bullet points format.
       `;
     } else {
       return `
@@ -95,7 +99,9 @@ const generatePrompt = (type, input, language = "hi") => {
         2. साइड इफेक्ट्स?
         3. कब न लें?
         4. विकल्प?
-        5. अन्य सलाह।
+        5. अन्य सलाह
+        
+        कृपया उत्तर अधिकतम 5 से 6 बिंदुओं में दें और प्रत्येक बिंदु संक्षिप्त और सीधा हो।।
       `;
     } else if (type === "food") {
       return `
@@ -112,6 +118,8 @@ const generatePrompt = (type, input, language = "hi") => {
         3. मात्रा या सावधानी?
         4. बेहतर विकल्प?
         5. सलाह।
+
+        कृपया उत्तर अधिकतम 5 से 6 बिंदुओं में दें और प्रत्येक बिंदु संक्षिप्त और सीधा हो।
       `;
     } else {
       return `
